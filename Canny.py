@@ -236,7 +236,7 @@ def Canny_detector(img):
     return res1 
 
 
-img = cv2.imread("C:\\Users\\asm\Desktop\\MERT AUTO FOCUS\\asd.jpg")
+img = cv2.imread("asd.jpg")
 
 image = Canny_detector(img)
 
